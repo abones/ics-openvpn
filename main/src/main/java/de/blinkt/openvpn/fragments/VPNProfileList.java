@@ -468,7 +468,7 @@ public class VPNProfileList extends ListFragment implements OnClickListener, Vpn
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()) {
+/*        switch (v.getId()) {
             case R.id.fab_import:
                 startImportConfigFilePicker();
                 break;
@@ -476,6 +476,7 @@ public class VPNProfileList extends ListFragment implements OnClickListener, Vpn
                 onAddOrDuplicateProfile(null);
                 break;
         }
+*/
     }
 
     private boolean startImportConfigFilePicker() {

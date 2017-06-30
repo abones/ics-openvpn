@@ -101,7 +101,7 @@ public class LogFragment extends ListFragment implements StateListener, SeekBar.
 
     @Override
     public void onCheckedChanged(RadioGroup group, int checkedId) {
-        switch (checkedId) {
+/*        switch (checkedId) {
             case R.id.radioISO:
                 ladapter.setTimeFormat(LogWindowListAdapter.TIME_FORMAT_ISO);
                 break;
@@ -113,6 +113,7 @@ public class LogFragment extends ListFragment implements StateListener, SeekBar.
                 break;
 
         }
+*/
     }
 
     @Override
